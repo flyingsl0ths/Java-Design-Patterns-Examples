@@ -71,7 +71,7 @@
 
 * __Parameters__ are data types which a function will accept as arguments
 
-* __Arguments__ data types a function will accept as parameters
+* __Arguments__ are data types a function will accept as parameters
 
 
 ## How to protect the object's data?
