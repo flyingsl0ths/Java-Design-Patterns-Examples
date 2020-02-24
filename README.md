@@ -1,2 +1,2 @@
 # Java-Design-Patterns-Examples
-Examples of various java design patterns
+Notes from Derek Bana's Java tutorial on design patterns
