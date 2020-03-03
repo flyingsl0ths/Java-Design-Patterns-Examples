@@ -1,6 +1,6 @@
 ## What Is The Abstract Factory Pattern?
 
-* Similar to the Factory Design Pattern, but everythin is **encapsulated**
+* Similar to the Factory Design Pattern, but everything is **encapsulated**
 
   * The method that orders the object
   * The factories build the object
