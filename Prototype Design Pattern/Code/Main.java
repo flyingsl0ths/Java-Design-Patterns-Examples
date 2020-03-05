@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        
+       System.out.println("Devil May Cry Style Switcher Demo\n");
+
        StyleChange.loadStyles();
        
        Style currentStyle = null;
