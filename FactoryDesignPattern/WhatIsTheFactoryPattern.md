@@ -1,6 +1,8 @@
 ## What Is The Factory Design Pattern?
 
-* _**"The Strategy Pattern with a hashmap thrown at it"**_
+* _**A design patter where a class is used
+  as a factory to house multiple classes
+  that implement the strategy design pattern**_
 
 * When a method returns one of several possible classes that share a common super class
 

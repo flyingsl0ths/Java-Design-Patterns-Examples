@@ -1,6 +1,6 @@
 ## What Is The Prototype Design Pattern?
 
-* _The Factory Design Pattern without the need for a factory_
+* _The Factory Design Pattern with a hashmap_
 
 * Used for creating new objects(instances) by cloning(copying)
   other objects

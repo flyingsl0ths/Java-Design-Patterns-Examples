@@ -1,6 +1,7 @@
 ## What Is The Decorator Design Pattern?
 
-* _**Decorating** an object with other objects at runtime_
+* A design patter where an object is 
+  **decorated** with many other objects at _runtime_ to produce an object
 
 * A design pattern that allows you to modify an object dynamically
 

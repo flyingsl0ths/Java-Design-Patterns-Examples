@@ -1,4 +1,8 @@
-# What Is The Command Design Pattern
+## What Is The Command Design Pattern
+
+* A design pattern where an **invoker** can be used as a way
+  of letting a **reciever** know what to execute when a **command**
+  is sent to it
 
 * The Command Pattern is a behavioural design pattern in
   which an object is used to represent and encapsulate all the

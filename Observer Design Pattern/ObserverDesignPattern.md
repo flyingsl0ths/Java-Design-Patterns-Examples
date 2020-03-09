@@ -1,5 +1,8 @@
 ## When To Use The Observer Pattern?
 
+* A mailing list with a **subject** as the
+  **sender** to all its **subscribers/observers** and what do all **subscribers/observers** get... **updates***
+
 * When you need many other objects to receive an update when another object changes
   * Example:
     * Stock market with thousands of stocks needs to send updates
