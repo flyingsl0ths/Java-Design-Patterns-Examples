@@ -1,14 +1,12 @@
 ## What Is The Abstract Factory Pattern?
 
 * Similar to the Factory Design Pattern, but everything is
-**encapsulated** including the factory used to generate the
+  **encapsulated** including the factory used to generate the
   factories
 
   * The method that orders the object
   * The factories build the object
   * The final objects
-  * The final objects contain objects that use the Strategy Pattern
-    * Composition: Object class fields are objects
 
 ## What Can you Do With An Abstract Factory?
 

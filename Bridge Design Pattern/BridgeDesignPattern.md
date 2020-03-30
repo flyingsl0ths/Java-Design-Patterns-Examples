@@ -1,14 +1,12 @@
 ## What Is The Bridge Design Pattern?
 
-* A design pattern that builds upon the Adapter Design Pattern
-  such that we no longer need an "adapter" interface instead we 
-  seperate use an abstraction thous decoupling the abstraction from implementation 
-
 * A design pattern used to decouple an abstraction from it's
   implementation so that the two can vary independently
 
-* Used for progessively adding functionality while separating out major
-  differences using abstract classes
+* Used for progessively adding functionality while separating out 
+  major differences using abstract classes
+
+  * Functionality can be thought of as a list of features which have been planned but not implemented yet for the next release of a program
 
   
 ![Bridge_Design_Pattern_Diagram](res/Bridge-Design-Pattern-UML-Diagram.png)
