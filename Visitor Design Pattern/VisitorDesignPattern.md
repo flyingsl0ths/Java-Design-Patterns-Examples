@@ -10,3 +10,10 @@
   classes without majorly editing them
 
 ![Visitor_Desgin_Pattern_UML_Diagram.png](res/Visitor-Desgin-Pattern-UML-Diagram.png)
+
+## Implementation
+* **Visitor**: An interface to be implemented which will add
+  extra functionality to a **Visitable** object
+
+* **Visitable**: An interface to be implemented which can be give
+  extra functionality to the implementor via a **Visitor** object

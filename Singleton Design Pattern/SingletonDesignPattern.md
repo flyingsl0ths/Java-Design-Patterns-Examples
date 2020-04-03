@@ -9,3 +9,8 @@
   within the class
 
   ![Singleton_Design_Pattern_Diagram](res/Singleton-Design-Pattern-UML-Diagram.jpg)
+
+
+## Implementation
+* Restrict multiple threads access to the static
+  method used to create the single object (see examples)

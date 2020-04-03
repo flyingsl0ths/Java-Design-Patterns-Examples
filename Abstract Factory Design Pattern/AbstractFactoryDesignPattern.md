@@ -33,3 +33,14 @@
 
 * Diagram Legend:
   * `+` **public** _instance variable/field/abstract method_
+
+
+## Implementation:
+
+* **Abstraction**: This will be implemented by all **Factories** who
+  will return an object that can take on many forms that being said
+  the abstraction allows for the factory to take on many forms as well
+
+* **Abstraction**:  A class shared amongst objects (The objects who
+  inherit from this class will be returned by the Concrete Implemetation
+  of the Abstract Factory)

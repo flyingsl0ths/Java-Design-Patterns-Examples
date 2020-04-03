@@ -12,3 +12,11 @@
   each of them operates
 
 ![Mediator_Design_Pattern_UML_Diagram](res/Mediator-Design-Pattern-UML-Diagram.png)
+
+# Implementation
+* **Abstraction**: A class shared by all objects which
+  will interact with other instances of this class 
+  via the Mediator, **Colleagues**
+
+* **Mediator**: An **interface** which will handle all interaction
+  between **Colleagues**

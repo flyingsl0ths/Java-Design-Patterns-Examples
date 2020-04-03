@@ -1,8 +1,8 @@
 ## What Is The Factory Design Pattern?
 
-* _**A design patter where a class is used
-  as a factory to house multiple classes
-  that implement the strategy design pattern**_
+* _**A design pattern where a class is used
+  as a factory to create multiple objects
+  that inherit from one abstract class**_
 
 * When a method returns one of several possible classes that share a common super class
 
@@ -30,3 +30,10 @@
 * Diagram Legend:
   * `+` **public** _instance variable/field/abstract method_
 
+## Implementation
+* **Abstraction**: An abstract class which all objects returned
+  from a factory can inherit from
+
+* **Factory**: A class that only knows to return one type
+  of class even thought that one class can take on
+  many forms

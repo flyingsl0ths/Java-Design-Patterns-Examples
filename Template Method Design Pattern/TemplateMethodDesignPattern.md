@@ -12,3 +12,11 @@
 
 * Diagram Legend:
   * `+` **public** _instance variable/field/abstract method_
+
+## Implementation
+* **Algorithm**: Implmented by the subclass each in a slightly
+  different way
+
+* **Abstraction**: Sets the **Algorithm** to be implemented
+  by the subclasses (this is `final`) while the methods used to
+  implement the algorithm can be altered 

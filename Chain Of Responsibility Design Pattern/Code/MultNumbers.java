@@ -1,4 +1,4 @@
-public class SubtractNumbers implements Chain {
+public class MultNumbers implements Chain {
 
     private Chain nextInChain;
 
@@ -12,10 +12,10 @@ public class SubtractNumbers implements Chain {
     @Override
     public void calculate(Numbers request) {
 
-        if (request.getCalcWanted() == "sub") {
+        if (request.getCalcWanted() == "mult") {
 
-            System.out.print(request.getNumber1() + " - " + request.getNumber2() + " = "
-                    + (request.getNumber1() - request.getNumber2()));
+            System.out.print(request.getNumber1() + " * " + request.getNumber2() + " = "
+                    + (request.getNumber1() * request.getNumber2()));
 
         } else {
 

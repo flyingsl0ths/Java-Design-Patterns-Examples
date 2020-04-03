@@ -17,3 +17,14 @@
   defined by the shared interface
 
 ![Adapter_Design_Pattern_Diagram](res/Adapter-Design-Pattern-UML-Diagram.png)
+
+## Implementation:
+* _An Adaptee_
+
+* _A Target_
+
+* **Interface**: Will be shared amongst objects
+
+* **Adapter**: A Class that will translate methods between the _adaptee_
+  and the _target object_ this class will also **contain
+  an instance of the adaptee** in order to perform the translation

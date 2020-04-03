@@ -1,16 +1,31 @@
 public class AddNumbers implements Chain {
+
     private Chain nextInChain;
 
+    // Defines the next Object to receive the
+    // data if this one can't use it
+
     public void setNextChain(Chain nextChain) {
-        this.nextInChain = nextChain;
+
+        nextInChain = nextChain;
+
     }
 
+    // Tries to calculate the data, or passes it
+    // to the Object defined in method setNextChain()
+
     public void calculate(Numbers request) {
-        if (request.getcalculationWanted() == "Addition") {
-            int sum = request.getNumber1() + request.getNumber1();
-            System.out.println(request.getNumber1() + " + " + request.getNumber1() + " = " + sum);
+
+        if (request.getCalcWanted() == "add") {
+
+            System.out.print(request.getNumber1() + " + " + request.getNumber2() + " = "
+                    + (request.getNumber1() + request.getNumber2()));
+
         } else {
-            this.nextInChain(request);
+
+            nextInChain.calculate(request);
+
         }
+
     }
 }

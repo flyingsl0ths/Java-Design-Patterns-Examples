@@ -24,3 +24,10 @@
 * Keeps class changes from forcing other class changes
 * Can hide complicated/secrect code from the user
 * Negative: increased number of objects/class
+
+## Implementation
+* **Interface**: Contains a family of algorithms for each
+  instance of a problem
+
+* **Object**: Contains a reference to the **Interface** and a method
+  to switch between classes within the **Interface**

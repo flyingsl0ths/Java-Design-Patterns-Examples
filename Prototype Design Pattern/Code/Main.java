@@ -2,22 +2,22 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        
-       System.out.println("Devil May Cry Style Switcher Demo\n");
 
-       StyleChange.loadStyles();
-       
-       Style currentStyle = null;
+        System.out.println("Devil May Cry Style Switcher Demo\n");
 
-       Scanner uInput = new Scanner(System.in);
+        StyleChange.loadStyles();
 
-       String choice = "";
+        Style currentStyle = null;
 
-       do {
-           System.out.print("Style: ");
-           choice = uInput.nextLine();
-           currentStyle = StyleChange.changeStyle(choice);
-           currentStyle.changed();
-       } while(!choice.isEmpty());
+        Scanner uInput = new Scanner(System.in);
+
+        String choice = "";
+
+        do {
+            System.out.print("Style: ");
+            choice = uInput.nextLine();
+            currentStyle = StyleChange.changeStyle(choice);
+            currentStyle.changed();
+        } while (!choice.isEmpty());
     }
- }
+}

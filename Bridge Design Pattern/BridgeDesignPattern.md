@@ -22,3 +22,13 @@
 
 * When you want an abstract class has a reference to the concrete class and it
   defines abstract methods that will be defined
+
+## Implementation
+* **Implementor**, an abstraction shared by multiple objects
+  known as the **Concrete Implementor**
+  * This sets the rules for all **abstractions**
+
+* **Abstraction**, a class shared amongst multiple objects
+  know as the **Refined Abstractions** that also contains a reference
+  to a **Concrete Implementor**
+  * This can set additional rules to all **Concrete Implementors**

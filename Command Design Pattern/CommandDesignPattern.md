@@ -39,3 +39,15 @@
 * Allows "undo" type of commands
 
 * However the number of classes created to house all these procedures is alot
+
+## Implementation
+* **Invoker**: a class used to call **Commands** via their _execute method_
+  this can also call an __undo method_ if specified by the **Command**
+
+* **Command**: an interface which contains two methods _execute_
+  (which is used by the **Invoker** to call the **Command**) and
+  _undo_ all classes who implement this interface must contain a reference
+  to the **Reciever** they operate on
+
+* **Reciever**: an interface shared amongst all classes that can
+  **recieve commands** via an **invoker**

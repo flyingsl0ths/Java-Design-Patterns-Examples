@@ -5,14 +5,15 @@
   appear to have changed it's class)
 
 * For Example:
-  * Context (Account): Maintains an instance of a Concrete State
+  * **Context** (Account): Maintains an instance of a Concrete State
     subclass that defines the current state
 
-  * State: Defines an interface for encapsulating the behavior
+  * **State**: Defines an interface for encapsulating the behavior
     associated with a particular state of Context
 
-  * Concrete State: Each subclass implements a behavior associated
-    with a state of Context 
+  * **Concrete State**: Each subclass implements a behavior associated
+    with a state of Context (contains a reference to the **Context** within
+    it's constructor in order to change state based on outcome of this class)
 
 * When implementing this design pattern you'll want to start
   with a long list then shrink it down to just the essential
@@ -22,3 +23,4 @@
 
 ![State_Design_Pattern_Diagram](res/State-Design-Pattern-UML-Diagram.png)
 ![State_Design_Pattern_Diagram2](res/State-Design-Pattern-UML-Diagram2.png)
+

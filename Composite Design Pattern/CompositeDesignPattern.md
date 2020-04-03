@@ -17,5 +17,10 @@
 * Data can be structered, or it can represent the inner workings 
   of every part of a whole object individually
 
- ![Composite_Design_Pattern_Diagram](res/Composite-Design-Pattern-UML-Diagram.png)
-  ![Composite_Design_Pattern_Diagram2](res/Composite-Design-Pattern-UML-Diagram2.png)
+![Composite_Design_Pattern_Diagram](res/Composite-Design-Pattern-UML-Diagram.png)
+![Composite_Design_Pattern_Diagram2](res/Composite-Design-Pattern-UML-Diagram2.png)
+
+## Implementation
+* **Abstraction**: An abstract class which allows the implementor (**Composite**) to
+  house other objects(**leafs**) who implement this same interface
+  _by groups or by a single amount_

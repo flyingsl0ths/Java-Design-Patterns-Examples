@@ -1,7 +1,5 @@
 ## What Is The Prototype Design Pattern?
 
-* _The Factory Design Pattern with a hashmap_
-
 * Used for creating new objects(instances) by cloning(copying)
   other objects
 
@@ -20,3 +18,12 @@
 
 * Diagram Legend:
   * `+` **public** _instance variable/field/abstract method_
+
+## Implementation
+
+* **Interface**: An interface shared by all copies
+  of an object which will be used at runtime
+
+* **Cache**: Acts as container for all implmentations
+  of the **Interface** which will be used at runtime,
+  this is also a way of retrieving copies of the **Interface**

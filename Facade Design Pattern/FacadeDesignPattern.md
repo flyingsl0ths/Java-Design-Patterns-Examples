@@ -9,3 +9,11 @@
   - Check if the security code is valid
   - Check if the funds are available
   - Make changes accordingly
+
+
+## Implementation
+* Use seperation of concerns to create
+  multiple classes that do one thing
+
+* A class that has references to all the
+  classes needed to complete it's task
